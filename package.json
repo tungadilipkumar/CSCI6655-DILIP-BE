@@ -1,0 +1,25 @@
+{
+  "name": "dilip-backend",
+  "version": "1.0.0",
+  "description": "Node.js backend for api, temperature sensor data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "npm i && node index.js",
+    "dev": "npm i && node index.js"
+  },
+  "author": "Dilip Kumar Tunga",
+  "license": "ISC",
+  "dependencies": {
+    "async-mqtt": "^2.6.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongodb": "^5.3.0",
+    "mqtt": "^4.3.7",
+    "random-zipcode": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
