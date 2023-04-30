@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-size: 25px;
+    background-color: #fb9f00;
+}
+
+.navbar-item {
+    display: inline-block;
+   
+    margin-top: 30px;
+}
+
+#navbar-item {
+    float: right;
+ 
+    margin-right: 140px;
+}
+
+#navbar-head {
+    margin-left: 100px;
+    
+}
+
+.nav-item, a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+.container {
+    height: auto;
+    display: grid;
+    background-color:beige;
+}
+    .container > div {
+        background-color:lavenderblush;
+    }
+.grid-container {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+   
+    background-color: beige;
+}
+
+    .grid-container > div {
+        background-color: lavenderblush;
+    }
+
+/*---------------------About-----------------------*/
+
+.about {
+    margin: 0;
+    padding: 0;
+   background: linear-gradient(45deg, lightblue, transparent);
+    height: 500px;
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic-cse.canva.com%2Fblob%2F572656%2FBlueandYellowCoffeeFocusDesktopWallpaper.jpg&imgrefurl=https%3A%2F%2Fwww.canva.com%2Flearn%2Fbackground-design%2F&tbnid=UyVLowxj_7vqXM&vet=12ahUKEwikotmNpaL9AhVxVDUKHSuxBoAQMygEegQIARBK..i&docid=o5DngMMXKg6sCM&w=1920&h=1080&q=longest%20image%20for%20background%20formal&hl=en&ved=2ahUKEwikotmNpaL9AhVxVDUKHSuxBoAQMygEegQIARBK");
+}
+
+.image-div {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color:blanchedalmond;
+}
+
+.about-content {
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-color: blanchedalmond;
+    /*!*background: #e7d3fa;*!*/
+}
+
+.profile-Photo {
+    margin: 60px 100px 0;
+    background: #def8f8;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+#pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.details-div {
+    background-color: blanchedalmond;
+    margin-top: 20px;
+}
+
+.details {
+    margin-left: 200px;
+    font-family: serif ;
+    font-display: block;
+    font-size: 20px;
+}
+
+.details-1 {
+    margin-left: 160px;
+    font-family: serif ;
+    font-display: block;
+    font-size: 20px;
+}
+
+.about-div {
+    margin-top: 120px;
+}
+
+.about-details {
+    margin-top: 50px;
+    margin-left: 20px;
+     color: white;
+}
+
+#details1 {
+    font-size: 20px;
+    margin-right: 100px;
+    color: #000;
+}
+
+#details2, #details3 {
+    font-size: 20px;
+}
+
+/*---------------------Education-----------------------*/
+
+.education {
+    margin: 0;
+    padding: 0;
+    background-color:blanchedalmond;
+    height: 500px;
+}
+
+.main-heading {
+    /*width: 100%;*/
+    background: #fb9f00;
+    height: 70px;
+    display: flex;
+    padding-left: 40%;
+}
+.main-heading-1 {
+    /*width: 100%;*/
+    font-size: xx-large;
+    height: 10px;
+    display: flex;
+    padding-left: 0%;
+}
+.heading-2{
+    margin-left: 15%;
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.icon {
+    margin-left: 40%;
+}
+
+.heading {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+
+.icon-size {
+    font-size: 30px;
+}
+.name-div{
+    overflow: auto;
+    display: block;
+    max-width: 100%;
+    font-size: 20px;
+}
+
+.university-div {
+    background: blanchedalmond;
+    /*overflow: auto;*/
+    display: block;
+}
+
+.uni-text {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.date {
+    float: right;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+/*.uni-name {
+  margin-left: 20px;
+    margin-bottom: 13px;
+    overflow: auto;
+}*/
+/*
+.skills {*/
+   /* height: 260px;*/
+   /* width: 100%;*/
+    /*background: #e7d3fa;*/
+/*}
+
+
+
+.skills-heading {*/
+    /*font-size: 30px;
+    text-align: center;*/
+    /*background: #8df38d;*/
+/*}*/
+
+/*.skill-list {*/
+    /*background: #def8f8;*/
+   /* height: 100%;*/
+/*}*/
+
+.skills {
+    background: aqua;
+    text-align: center;
+}
+
+.skill-text {
+}
+.skill {
+    display: inline-block;
+}
+.skill-icon{
+    margin-top: 20px;
+}
+.material-icons{
+    margin: 10px;
+}
+
+/*--------------------------Experience-----------------------*/
+#experience{
+    margin: 0;
+    padding: 0;
+    height: 410px;
+    display: block;
+}
+
+ul.about-project{
+    list-style-type: square;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    overflow: auto;
+    max-width: 100%;
+}
+
+#projects{
+    height: 300px;
+}
+#footer{
+    height: 80px;
+    background: #def8f8;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    /*padding-top: 1px;*/
+    background-color: #fdbd01;
+    font-display: block;
+    font-size: larger;
+    color: black;
+}
+.tab {
+    display: inline-block;
+    margin-left: 190px;
+    font-size: 30px;
+    font-family: "serif";
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+.main-heading-1 {
+    /*width: 100%;*/
+  
+    height: 20px;
+    display: flex;
+    padding-left: 30%;
+}
